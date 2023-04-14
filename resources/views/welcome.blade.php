@@ -14,7 +14,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
-    <body class="antialiased">
+    <body>
         <header>
             <div id="login-action">
                 @if (Route::has('login'))
