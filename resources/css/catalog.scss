@@ -1,10 +1,131 @@
-html{
+html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    body{
-        display: grid;
-        background-color: #f5f5f5
-        
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        // display: grid;
+        margin: 0;
+        background-image: url('../assets/img/2cccoil.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        header {
+            background-image: url('../assets/img/br.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            // height: 100vh;
+            width: 99.5vw;
+            padding: 0.2em;
+            height: 4em;
+            // margin-bottom: 4em;
+            position: sticky;
+            top: 0;
+            display: grid;
+            box-shadow: inset 0px 0px 20px 0px black;
+            align-items: center;
+            backdrop-filter: blur(5px);
+
+            #login-action {
+                width: 15%;
+                display: flex;
+                justify-content: space-around;
+                justify-self: flex-end;
+                margin-right: 3em;
+
+                a {
+                    padding: 0.4em;
+                    padding-right: 0.9em;
+                    margin-left: 0.5em;
+                    padding-left: 0.9em;
+                    border: 2px solid;
+                    border-color: rgb(12, 4, 4);
+                    color: black;
+                    border-radius: 6px;
+                    border-width: 2px;
+                    text-decoration: none;
+
+                }
+
+                a:hover {
+                    background-color: #fff;
+
+                }
+            }
+        }
+
+        main {
+            width: 80%;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+
+            #present {
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                // margin: auto;
+                // border: 1px red solid;
+                #txt {
+                    width: 40%;
+                    margin-top: 8em;
+                    padding: 10px;
+                    border: 2px solid gray;
+
+                    p {
+                        text-align: center;
+                        font-style: italic;
+                        font-size: 1.5em;
+                        font-family: cursive;
+                        color: rgb(221, 63, 63);
+                        text-shadow: rgb(147, 115, 238) solid;
+                        
+                    }
+                }
+
+                #logo {
+                    position: relative;
+                    // top: 5;
+                    width: 40%;
+                    height: 400px;
+                    display: flex;
+                    justify-content: center;
+                    // align-items: center;
+                    flex-direction: column;
+
+                    // height: px;
+                    // margin: auto;
+                    // border: 1px solid green;
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        // border: 1px solid salmon;
+                    }
+
+                    h3 {
+                        width: 100%;
+                        letter-spacing: 8px;
+                        font-family: cursive;
+                        font-style: italic;
+                        text-align: center;
+                        font-size: 30px;
+                        margin-top: -2em;
+                        color: red;
+                        // border: 1px solid rgb(200, 41, 24);
+                    }
+                }
+            }
+            #disney,#netflix,#hbo,#curio{
+                height: 15em;
+                width: 100%;
+                border: 3px solid red;
+            }
+        }
     }
 }

@@ -32,7 +32,7 @@
             </div>
         </header>
         <main>
-            {{-- @if (Route::has('login')) --}}
+            @if (Route::has('login'))
             <div id="present">
                 <div id="logo">
                     <a href="http://"> <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
@@ -359,7 +359,7 @@
 
             </div>
 
-            {{-- @endifnp --}}
+            @endif
         </main>
     </body>
 

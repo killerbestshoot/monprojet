@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="shortcut icon" href="resources/assets/img/favicon_io/favicon.ico" type="image/x-icon">
         <title>Plan seri Pam</title>
 
         <!-- Fonts -->
@@ -14,7 +14,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
-    <body class="antialiased">
+    <body>
         <header>
             <div id="login-action">
                 @if (Route::has('login'))
